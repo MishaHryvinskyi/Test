@@ -1,9 +1,10 @@
 import { Card } from "./Card/Card";
+import { Container } from "../components/Card/Card.styled"
 
 export const App = () => {
   return (
-    <div>
+    <Container>
       <Card/>
-    </div>
+    </Container>
   );
 };

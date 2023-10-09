@@ -1,43 +1,68 @@
 import { Button } from "components/Button/Button"
+import { CardContainer, CardImage, WrapperCardImage, InfoCarItem, BrandCar, InfoCar, TitleContainer, BrandCarAccent } from "./Card.styled"
 
 export const Card = () => {
 
 const cardEl = {
-    "id": 9582,
-    "year": 2008,
-    "make": "Buick",
-    "model": "Enclave",
+    "id": 9584,
+    "year": 2019,
+    "make": "Volvo",
+    "model": "XC90",
     "type": "SUV",
-    "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/buick_enclave.jpg",
-    "description": "The Buick Enclave is a stylish and spacious SUV known for its comfortable ride and luxurious features.",
-    "fuelConsumption": "10.5",
-    "engineSize": "3.6L V6",
+    "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/volvo_xc90.jpg",
+    "description": "The Volvo XC90 is a premium SUV that offers exceptional safety, advanced technology, and elegant design.",
+    "fuelConsumption": "8.3",
+    "engineSize": "2.0L 4-cylinder",
     "accessories": [
-        "Leather seats",
-        "Panoramic sunroof",
-        "Premium audio system"
+        "Nappa leather seats",
+        "Bowers & Wilkins premium sound system",
+        "Head-up display"
     ],
     "functionalities": [
-        "Power liftgate",
-        "Remote start",
-        "Blind-spot monitoring"
+        "IntelliSafe advanced safety features",
+        "Pilot Assist semi-autonomous driving",
+        "Four-zone automatic climate control"
     ],
-    "rentalPrice": "$40",
-    "rentalCompany": "Luxury Car Rentals",
-    "address": "123 Example Street, Kiev, Ukraine",
-    "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
-    "mileage": 5858
+    "rentalPrice": "$50",
+    "rentalCompany": "Premium Auto Rentals",
+    "address": "456 Example Avenue, Lviv, Ukraine",
+    "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
+    "mileage": 5352
 }
 
     return (
-        <div>
-            <img src={cardEl.img} alt={cardEl.make} />
-            <div style={{display: "flex"}}>
-                <p>{cardEl.make}<span>{cardEl.model}</span>{cardEl.year}</p>
-                <p>{cardEl.rentalPrice}</p>
-            </div>
-            <p>{cardEl.address}</p>
+        <CardContainer>
+            <WrapperCardImage>
+                <CardImage src={cardEl.img} alt={cardEl.make} />
+            </WrapperCardImage>
+            <TitleContainer>
+                <BrandCar>{cardEl.make} <BrandCarAccent>{cardEl.model + ","}</BrandCarAccent> {cardEl.year}</BrandCar>
+                <BrandCar>{cardEl.rentalPrice}</BrandCar>
+            </TitleContainer>
+            <InfoCar>
+                <span style={{paddingRight: "6px", borderRight: "1px solid rgba(18, 20, 23, 0.50)"}}>{cardEl.address.split(',')[1].trim()}</span> 
+                <InfoCarItem>{cardEl.address.split(',')[2].trim()}</InfoCarItem>
+                <InfoCarItem>{cardEl.rentalCompany.split(' ').slice(1).join(' ')}</InfoCarItem>
+                <span style={{paddingLeft: "6px"}}>{cardEl.rentalCompany.split(' ')[0]}</span>
+            </InfoCar>
+            <InfoCar>
+                    <span 
+                        style={{
+                            paddingRight: "6px", 
+                            borderRight: "1px solid rgba(18, 20, 23, 0.50)"
+                        }}
+                    >
+                        {cardEl.type.charAt(0).toUpperCase() + cardEl.type.slice(1).toLowerCase()}
+                    </span>
+                    <InfoCarItem>
+                        {cardEl.make}
+                    </InfoCarItem>
+                    <InfoCarItem>
+                        {cardEl.id}
+                    </InfoCarItem>
+                    <span style={{paddingLeft: "6px"}}>{cardEl.accessories[1].split(' ').slice(3).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}</span>
+            </InfoCar>
             <Button />
-        </div>
+        </CardContainer>
     )
 }
