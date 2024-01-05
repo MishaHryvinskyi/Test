@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.17aa9ba5.css",
+    "main.js": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.d6d9221e.js",
+    "index.html": "/https:/github.com/MishaHryvinskyi/Test/index.html",
+    "main.17aa9ba5.css.map": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.17aa9ba5.css.map",
+    "main.d6d9221e.js.map": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.d6d9221e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17aa9ba5.css",
+    "static/js/main.d6d9221e.js"
+  ]
+}
