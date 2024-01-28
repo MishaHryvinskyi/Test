@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.36fa6f42.css",
-    "main.js": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.0d56b5c2.js",
+    "main.css": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.c9a3c723.css",
+    "main.js": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.3e20fddc.js",
     "index.html": "/https:/github.com/MishaHryvinskyi/Test/index.html",
-    "main.36fa6f42.css.map": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.36fa6f42.css.map",
-    "main.0d56b5c2.js.map": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.0d56b5c2.js.map"
+    "main.c9a3c723.css.map": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.c9a3c723.css.map",
+    "main.3e20fddc.js.map": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.3e20fddc.js.map"
   },
   "entrypoints": [
-    "static/css/main.36fa6f42.css",
-    "static/js/main.0d56b5c2.js"
+    "static/css/main.c9a3c723.css",
+    "static/js/main.3e20fddc.js"
   ]
 }
