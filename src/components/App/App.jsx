@@ -1,12 +1,13 @@
 // import paintings from './painting.json';
 // import PaintingList from 'components/Painting/PaintingList';
 // import Section from 'components/Painting/Section';
-import upcomingEvents from './upcoming-events.json'
+import upcomingEvents from '../../upcoming-events.json'
 import { EventBoard } from "components/EventBoard/EventBoard";
 import { PageTitle } from "components/PageTitle/PageTitle";
+import { Container } from './App.styled';
 
 export const App = () => {
-  return <>
+  return <Container>
     <PageTitle text="24th Core Worlds Coalition Conference"/>
     <EventBoard events={upcomingEvents}/>
     {/* <Section title="Топ тижня">
@@ -36,5 +37,5 @@ export const App = () => {
       price={paint[2].price}
       quantity={paint[2].quantity}
     /> */}
-  </>
+  </Container>
 };

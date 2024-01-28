@@ -2,6 +2,8 @@ import css from './Event.module.css';
 import PropTypes from 'prop-types';
 import { FaMapMarkerAlt, FaUserAlt, FaCalendarAlt, FaClock } from "react-icons/fa";
 import {formatEventDuration, formatEventStart} from 'utils';
+import { Chip } from './Event.styled';
+
 export const Event = ({ 
     name, 
     location, 
@@ -31,7 +33,7 @@ export const Event = ({
                 <FaClock className={css.icon}/>
                 {duration}
             </p>
-            <span className={`${css.chip} ${css[type]}`}>{type}</span>
+            <Chip eventType={type}>{type}</Chip>
         </div>
     );
 }
