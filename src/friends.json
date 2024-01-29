@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://scontent.flwo4-2.fna.fbcdn.net/v/t31.18172-8/10003693_486778308110970_102189801_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=be3454&_nc_ohc=JNEMxrcyrwYAX_VZJF8&_nc_ht=scontent.flwo4-2.fna&oh=00_AfCulpNS4HiDG9LSe0O8YPg3J1kKgXTN_2KVyG9n2ce2Lg&oe=65DF6D69",
+    "name": "Misha",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://scontent.flwo4-2.fna.fbcdn.net/v/t39.30808-6/305818556_3755773867982270_6656591427847551000_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Zyb5MXETXEgAX8k3Pl2&_nc_ht=scontent.flwo4-2.fna&oh=00_AfBtERIxbBWXSIzXyJUgqaRWs7O0242QMQoIPKCbdO-m8Q&oe=65BDF03A",
+    "name": "Vita",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://scontent.flwo4-2.fna.fbcdn.net/v/t1.18169-9/18556278_751028481742477_8475936758337010382_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=_-U30IqJCCIAX9I30Do&_nc_ht=scontent.flwo4-2.fna&oh=00_AfB_qPSeGcrebxhbuEAvBaoGz7AiNWe0j0dF1JGAwFzktQ&oe=65DF81A5",
+    "name": "Sofia",
+    "isOnline": false,
+    "id": 1213
+  },
+  {
+    "avatar": "https://scontent.flwo4-2.fna.fbcdn.net/v/t1.6435-9/167591269_256597406119867_8587725536441091820_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=BUlBJmTisqIAX8TO4cx&_nc_ht=scontent.flwo4-2.fna&oh=00_AfARJwdJT_OgbYiKgdEz7yNVPFYAIjqUM75f4w_WUY_fJQ&oe=65DF6F2D",
+    "name": "Andriy",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://scontent.flwo4-2.fna.fbcdn.net/v/t39.30808-6/398110986_848486756930926_7303964516427538911_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=ZkLI6__b9gQAX8-9qHs&_nc_ht=scontent.flwo4-2.fna&oh=00_AfBsSM71vyi_CZeug2LMW3v2g5M7L466ktynANvJJ7bxvg&oe=65BCE441",
+    "name": "Vysia",
+    "isOnline": true,
+    "id": 1284
+  }
+]
