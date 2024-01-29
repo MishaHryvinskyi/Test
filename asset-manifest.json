@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.c9a3c723.css",
-    "main.js": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.3e20fddc.js",
+    "main.css": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.5675ed25.css",
+    "main.js": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.39eb76c9.js",
     "index.html": "/https:/github.com/MishaHryvinskyi/Test/index.html",
-    "main.c9a3c723.css.map": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.c9a3c723.css.map",
-    "main.3e20fddc.js.map": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.3e20fddc.js.map"
+    "main.5675ed25.css.map": "/https:/github.com/MishaHryvinskyi/Test/static/css/main.5675ed25.css.map",
+    "main.39eb76c9.js.map": "/https:/github.com/MishaHryvinskyi/Test/static/js/main.39eb76c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9a3c723.css",
-    "static/js/main.3e20fddc.js"
+    "static/css/main.5675ed25.css",
+    "static/js/main.39eb76c9.js"
   ]
 }
