@@ -5,21 +5,24 @@
 // import { EventBoard } from "components/EventBoard/EventBoard";
 // import { PageTitle } from "components/PageTitle/PageTitle";
 
-import { Profile } from "components/Profile/Profile";
-import { Statistics } from "components/Statistics/Statistics";
-import { FriendList } from "components/FriendList/FriendList";
-import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
+// import { Profile } from "components/Profile/Profile";
+// import { Statistics } from "components/Statistics/Statistics";
+// import { FriendList } from "components/FriendList/FriendList";
+// import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
 
-import user from '../../user.json';
-import data from '../../data.json';
-import friends from '../../friends.json';
-import transactions from '../../transactions.json';
+// import user from '../../user.json';
+// import data from '../../data.json';
+// import friends from '../../friends.json';
+// import transactions from '../../transactions.json';
+
+import Counter from "components/Counter/Counter";
 
 
 
 export const App = () => {
   return <div>
-    <Profile
+  <Counter />
+    {/* <Profile
       username={user.username}
       tag={user.tag}
       location={user.location}
@@ -33,7 +36,7 @@ export const App = () => {
     />
 
     <FriendList friends={friends}/>
-    <TransactionHistory items={transactions}/>
+    <TransactionHistory items={transactions}/> */}
     {/* <PageTitle text="24th Core Worlds Coalition Conference"/>
     <EventBoard events={upcomingEvents}/> */}
     {/* <Section title="Топ тижня">
