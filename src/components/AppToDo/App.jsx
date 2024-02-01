@@ -1,13 +1,19 @@
+import  Form  from "components/Form/Form";
 import React, { Component } from "react";
-import ToDoList from "components/ToDoList/ToDoList";
 
 class App extends Component {
-    state = {};
+    state = {
+       
+    };
+
+    formSubmitHandler = data => {
+        console.log("data", data);
+    }
 
     render() {
         return (
             <div>
-                <ToDoList />
+                <Form onSubmit={this.formSubmitHandler}/>
             </div>
         );
     }
