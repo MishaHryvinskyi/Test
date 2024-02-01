@@ -1,7 +1,8 @@
 import React from "react";
 import { Item } from "./ToDo.styled";
+import { FaRegTimesCircle } from "react-icons/fa";
 
-const ToDo = ({ todo, handleCheckCompleted }) => {
+const ToDo = ({ todo, handleCheckCompleted, handleDelete }) => {
     return (
         <Item>
             <div>
@@ -12,7 +13,7 @@ const ToDo = ({ todo, handleCheckCompleted }) => {
                 />
                 {todo.title}
             </div>
-            <button type="button">Delete</button>
+            <button style={{  borderRadius: "50%", backgroundColor: "red", color: "white", border: "none", width: "20px", height: "20px" }} type="button" onClick={() => handleDelete(todo.id)}><FaRegTimesCircle /></button>
         </Item>
     );
 };

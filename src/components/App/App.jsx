@@ -5,6 +5,8 @@
 // import { EventBoard } from "components/EventBoard/EventBoard";
 // import { PageTitle } from "components/PageTitle/PageTitle";
 
+import ToDoList from "components/ToDoList/ToDoList";
+
 
 // import ColorPicker from "components/Colorpicker/Colorpicker";
 
@@ -32,7 +34,7 @@
 
 export const App = () => {
   return <div>
-
+    <ToDoList />
     {/* <ColorPicker options={colorPickerOptions}/> */}
     {/* <Dropdown /> */}
     {/* <Counter/> */}
