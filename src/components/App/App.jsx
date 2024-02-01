@@ -5,38 +5,38 @@
 // import { EventBoard } from "components/EventBoard/EventBoard";
 // import { PageTitle } from "components/PageTitle/PageTitle";
 
+
 // import ColorPicker from "components/Colorpicker/Colorpicker";
 
-import { Profile } from "components/Profile/Profile";
-import { Statistics } from "components/Statistics/Statistics";
-import { FriendList } from "components/FriendList/FriendList";
-import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
+// import { Profile } from "components/Profile/Profile";
+// import { Statistics } from "components/Statistics/Statistics";
+// import { FriendList } from "components/FriendList/FriendList";
+// import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
 
-import user from '../../user.json';
-import data from '../../data.json';
-import friends from '../../friends.json';
-import transactions from '../../transactions.json';
+// import user from '../../user.json';
+// import data from '../../data.json';
+// import friends from '../../friends.json';
+// import transactions from '../../transactions.json';
 
 // import Counter from "components/Counter/Counter";
 // import Dropdown from "components/Dropdown/Dropdown";
 
-const colorPickerOptions = [
-  { label: 'red', color: '#F44336' },
-  { label: 'green', color: '#4CAF50' },
-  { label: 'blue', color: '#2196F3' },
-  { label: 'grey', color: '#607D88' },
-  { label: 'pink', color: '#E91E63' },
-  { label: 'indigo', color: '#3F5185' },
-];
+// const colorPickerOptions = [
+//   { label: 'red', color: '#F44336' },
+//   { label: 'green', color: '#4CAF50' },
+//   { label: 'blue', color: '#2196F3' },
+//   { label: 'grey', color: '#607D88' },
+//   { label: 'pink', color: '#E91E63' },
+//   { label: 'indigo', color: '#3F5185' },
+// ];
 
 export const App = () => {
   return <div>
 
-
     {/* <ColorPicker options={colorPickerOptions}/> */}
     {/* <Dropdown /> */}
     {/* <Counter/> */}
-    <Profile
+    {/* <Profile
       username={user.username}
       tag={user.tag}
       location={user.location}
@@ -50,7 +50,7 @@ export const App = () => {
     />
 
     <FriendList friends={friends}/>
-    <TransactionHistory items={transactions}/>
+    <TransactionHistory items={transactions}/> */}
     {/* <PageTitle text="24th Core Worlds Coalition Conference"/>
     <EventBoard events={upcomingEvents}/> */}
     {/* <Section title="Топ тижня">
